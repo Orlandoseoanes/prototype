@@ -22,8 +22,8 @@ async function bootstrap() {
     }),
   );
 
-  await app.listen(3000);
-  console.log('🚀 Servidor corriendo en http://localhost:3000');
-  console.log('📘 Swagger en http://localhost:3000/api');
+  await app.listen(3005);
+  console.log('🚀 Servidor corriendo en http://localhost:3005');
+  console.log('📘 Swagger en http://localhost:3005/api');
 }
 bootstrap();
